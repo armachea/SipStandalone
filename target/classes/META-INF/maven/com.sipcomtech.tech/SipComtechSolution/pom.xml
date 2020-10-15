@@ -20,5 +20,17 @@
       <version>20070405</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.12</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.sip</groupId>
+      <artifactId>jain-sip-ri</artifactId>
+      <version>1.2.153</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>
