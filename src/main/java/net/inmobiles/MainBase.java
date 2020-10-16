@@ -41,7 +41,7 @@ public class MainBase implements SipListener {
 
 	private ContactHeader contactHeader;
 	private static SipStack sipStack;
-	private ListeningPoint udpListeningPoint;
+	private static ListeningPoint udpListeningPoint;
 	private ClientTransaction inviteTid;
 	private Dialog dialog;
 	private boolean byeTaskRunning;
@@ -56,7 +56,9 @@ public class MainBase implements SipListener {
 		server.start();
 		System.out.println(" --- HTTP SERVER RUNNING --- ");
 		
-		MainHelper.sendInviteRequest(sipStack);
+		ModuleHelper.sendInviteRequest(sipStack,addressFactory,messageFactory,headerFactory,udpListeningPoint,sipProvider);
+		
+		
 		
 	}
 

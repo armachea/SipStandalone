@@ -1,51 +1,21 @@
- --- HTTP SERVER ACTIONS --- 
- --- HTTP SERVER ACTIONS --- 
- --- HTTP SERVER ACTIONS --- 
 BUILD TIMESTAMP = null
-Config Propeties = {javax.sip.OUTBOUND_PROXY=230.0.0.1:5070/udp, gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=shootistlog.txt, gov.nist.javax.sip.DEBUG_LOG=shootistdebug.txt}
+Config Propeties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
 gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
-{javax.sip.OUTBOUND_PROXY=230.0.0.1:5070/udp, gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=shootistlog.txt, gov.nist.javax.sip.DEBUG_LOG=shootistdebug.txt}
+{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
 ]
 gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
 gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
 gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
- logDescription="shenderette"
+ logDescription="MainBaseStack"
  name="null" />
 ]
 gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
 gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
 using default tls security policy
-gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {javax.sip.OUTBOUND_PROXY=230.0.0.1:5070/udp, gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=shootistlog.txt, gov.nist.javax.sip.DEBUG_LOG=shootistdebug.txt}]
+gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}]
 the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
-BUILD TIMESTAMP = null
-Config Propeties = {javax.sip.OUTBOUND_PROXY=230.0.0.1:5070/udp, gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=./output/shootistlog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/shootistdebug.txt}
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
-{javax.sip.OUTBOUND_PROXY=230.0.0.1:5070/udp, gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=./output/shootistlog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/shootistdebug.txt}
-]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
- logDescription="shenderette"
- name="null" />
-]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
-using default tls security policy
-gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {javax.sip.OUTBOUND_PROXY=230.0.0.1:5070/udp, gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=./output/shootistlog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/shootistdebug.txt}]
-the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
-BUILD TIMESTAMP = null
-Config Propeties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
-{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
-]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
- logDescription="shenderette"
- name="null" />
-]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
-gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
-using default tls security policy
-gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=shenderette, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}]
-the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1243) [createListeningPoint : address = 127.0.0.1 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:119) [Max Message size is 65536]
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1279) [Created Message Processor: 127.0.0.1 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:200) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@7f560810 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@69d9c55]
+listeningPoint = gov.nist.javax.sip.ListeningPointImpl@69d9c55
