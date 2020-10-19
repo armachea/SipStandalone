@@ -10,3 +10,334 @@ javax.sip.OUTBOUND_PROXY= null
  name="MainBaseStack"
  auxInfo="null"/>
  
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= MainBaseStack
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="MainBaseStack"
+ name="MainBaseStack"
+ auxInfo="null"/>
+ 
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= MainBaseStack
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="MainBaseStack"
+ name="MainBaseStack"
+ auxInfo="null"/>
+ 
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099182362"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099182864"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099183865"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099185866"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099189870"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099197879"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099213894"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= MainBaseStack
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="MainBaseStack"
+ name="MainBaseStack"
+ auxInfo="null"/>
+ 
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.168:5060" 
+time="1603109186551"
+isSender="true" 
+transactionId="z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434" 
+callId="24b8a9373e0b549014ebafefbbb2b731@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.168:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="192.168.153.168:5060" 
+to="10.153.103.106:5060" 
+time="1603109186912"
+isSender="false" 
+transactionId="z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434" 
+callId="24b8a9373e0b549014ebafefbbb2b731@10.153.103.106" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Content-Length: 0
+
+]]>
+</message>
+
+<!-- Use the  Trace Viewer in src/tools/tracesviewer to view this  trace  
+Here are the stack configuration properties 
+javax.sip.IP_ADDRESS= null
+javax.sip.STACK_NAME= MainBaseStack
+javax.sip.ROUTER_PATH= null
+javax.sip.OUTBOUND_PROXY= null
+-->
+<description
+ logDescription="MainBaseStack"
+ name="MainBaseStack"
+ auxInfo="null"/>
+ 
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.168:5060" 
+time="1603111287105"
+isSender="true" 
+transactionId="z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233" 
+callId="3d036c2c694c4e4666902f5df33d3690@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.168:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+<message
+from="192.168.153.168:5060" 
+to="10.153.103.106:5060" 
+time="1603111287287"
+isSender="false" 
+transactionId="z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233" 
+callId="3d036c2c694c4e4666902f5df33d3690@10.153.103.106" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+CSeq: 1 INVITE
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Content-Length: 0
+
+]]>
+</message>
+

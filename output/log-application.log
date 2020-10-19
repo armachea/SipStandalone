@@ -16,6 +16,1254 @@ gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stac
 the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
 gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1243) [createListeningPoint : address = 127.0.0.1 port = 5060 transport = udp]
 gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:119) [Max Message size is 65536]
-gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1279) [Created Message Processor: 127.0.0.1 port = 5060 transport = udp]
-gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:200) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@7f560810 listeningPoint = gov.nist.javax.sip.ListeningPointImpl@69d9c55]
-listeningPoint = gov.nist.javax.sip.ListeningPointImpl@69d9c55
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1293) [Invalid argument address = 127.0.0.1 port = 5060 transport = udp]
+BUILD TIMESTAMP = null
+Config Propeties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
+{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
+ logDescription="MainBaseStack"
+ name="null" />
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
+using default tls security policy
+gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}]
+the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1243) [createListeningPoint : address = 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:119) [Max Message size is 65536]
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1279) [Created Message Processor: 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:200) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@46a88f3a listeningPoint = gov.nist.javax.sip.ListeningPointImpl@1bf77a99]
+listeningPoint = gov.nist.javax.sip.ListeningPointImpl@1bf77a99
+gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1311) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@1bf77a99]
+SipProvider = gov.nist.javax.sip.SipProviderImpl@6386cb9d
+gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:234) [add SipListener net.inmobiles.MainBase@e415f47]
+gov.nist.javax.sip.SipProviderImpl.getNewClientTransaction(SipProviderImpl.java:338) [could not find existing transaction for INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+ creating a new one ]
+gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:239) [Used request-URI for nextHop = 192.168.153.168:5060/udp]
+gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:873) [getDialog(8602e41c5ca02c2bcd0d61cf8502acd9@10.153.103.106:12345) : returning null]
+gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:254) [Creating message channel 192.168.153.168/5060]
+gov.nist.javax.sip.stack.SIPClientTransaction.<init>(SIPClientTransaction.java:311) [Creating clientTransaction gov.nist.javax.sip.stack.SIPClientTransaction@ffffffff]
+[LogWriter.java:92][SIPClientTransaction.java:312][SIPTransactionStack.java:1583][SIPTransactionStack.java:1561][SipProviderImpl.java:398][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKc88c797c42273bab839f8446e173faf63433]
+gov.nist.javax.sip.stack.SIPTransactionStack.addTransactionHash(SIPTransactionStack.java:1770) [ putTransactionHash :  key = z9hg4bkc88c797c42273bab839f8446e173faf63433]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKc88c797c42273bab839f8446e173faf63433]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1744) [SipDialog.addTransaction() gov.nist.javax.sip.stack.SIPDialog@212eb580 transaction = gov.nist.javax.sip.stack.SIPClientTransaction@31e3e79a]
+gov.nist.javax.sip.stack.SIPDialog.setRemoteParty(SIPDialog.java:845) [settingRemoteParty "9922777" <sip:9922777@192.168.153.168:5060>]
+gov.nist.javax.sip.stack.SIPDialog.setLocalSequenceNumber(SIPDialog.java:1923) [setLocalSequenceNumber: original  0 new  = 1]
+gov.nist.javax.sip.stack.SIPDialog.setLocalTag(SIPDialog.java:2035) [set Local tag 12345 dialog = gov.nist.javax.sip.stack.SIPDialog@212eb580]
+[LogWriter.java:92][SIPDialog.java:2037][SIPDialog.java:1778][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1821) [isBackToBackUserAgent = false]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1829) [Transaction Added gov.nist.javax.sip.stack.SIPDialog@212eb58012345/null]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1831) [TID = z9hg4bkc88c797c42273bab839f8446e173faf63433/false]
+[LogWriter.java:92][SIPDialog.java:1834][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:698) [Creating a dialog : gov.nist.javax.sip.stack.SIPDialog@212eb580]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:699) [provider port = 5060]
+[LogWriter.java:92][SIPDialog.java:702][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 8602e41c5ca02c2bcd0d61cf8502acd9@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@212eb580]
+inviteTid = gov.nist.javax.sip.stack.SIPClientTransaction@31e3e79a
+BUILD TIMESTAMP = null
+Config Propeties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
+{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
+ logDescription="MainBaseStack"
+ name="null" />
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
+using default tls security policy
+gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}]
+the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1243) [createListeningPoint : address = 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:119) [Max Message size is 65536]
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1279) [Created Message Processor: 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:200) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@63121c6c listeningPoint = gov.nist.javax.sip.ListeningPointImpl@4631da71]
+listeningPoint = gov.nist.javax.sip.ListeningPointImpl@4631da71
+gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1311) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@4631da71]
+SipProvider = gov.nist.javax.sip.SipProviderImpl@5fd13cac
+gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:234) [add SipListener net.inmobiles.MainBase@12ddcc12]
+gov.nist.javax.sip.SipProviderImpl.getNewClientTransaction(SipProviderImpl.java:338) [could not find existing transaction for INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+ creating a new one ]
+gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:239) [Used request-URI for nextHop = 192.168.153.170:5060/udp]
+gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:873) [getDialog(03ad558269d7ee10cff9e7965905a14c@10.153.103.106:12345) : returning null]
+gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:254) [Creating message channel 192.168.153.170/5060]
+gov.nist.javax.sip.stack.SIPClientTransaction.<init>(SIPClientTransaction.java:311) [Creating clientTransaction gov.nist.javax.sip.stack.SIPClientTransaction@ffffffff]
+[LogWriter.java:92][SIPClientTransaction.java:312][SIPTransactionStack.java:1583][SIPTransactionStack.java:1561][SipProviderImpl.java:398][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bK5615cb36e4073a2c5c15e241595c616d313639]
+gov.nist.javax.sip.stack.SIPTransactionStack.addTransactionHash(SIPTransactionStack.java:1770) [ putTransactionHash :  key = z9hg4bk5615cb36e4073a2c5c15e241595c616d313639]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bK5615cb36e4073a2c5c15e241595c616d313639]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1744) [SipDialog.addTransaction() gov.nist.javax.sip.stack.SIPDialog@5127708e transaction = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219]
+gov.nist.javax.sip.stack.SIPDialog.setRemoteParty(SIPDialog.java:845) [settingRemoteParty "9922777" <sip:9922777@192.168.153.170:5060>]
+gov.nist.javax.sip.stack.SIPDialog.setLocalSequenceNumber(SIPDialog.java:1923) [setLocalSequenceNumber: original  0 new  = 1]
+gov.nist.javax.sip.stack.SIPDialog.setLocalTag(SIPDialog.java:2035) [set Local tag 12345 dialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+[LogWriter.java:92][SIPDialog.java:2037][SIPDialog.java:1778][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1821) [isBackToBackUserAgent = false]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1829) [Transaction Added gov.nist.javax.sip.stack.SIPDialog@5127708e12345/null]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1831) [TID = z9hg4bk5615cb36e4073a2c5c15e241595c616d313639/false]
+[LogWriter.java:92][SIPDialog.java:1834][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:698) [Creating a dialog : gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:699) [provider port = 5060]
+[LogWriter.java:92][SIPDialog.java:702][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendRequest(SIPClientTransaction.java:937) [sendRequest() INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendMessage(SIPClientTransaction.java:426) [Sending Message INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendMessage(SIPClientTransaction.java:427) [TransactionState null]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bK5615cb36e4073a2c5c15e241595c616d313639]
+gov.nist.javax.sip.stack.SIPTransaction.setState(SIPTransaction.java:572) [Transaction:setState 0 gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219 branchID = z9hG4bK5615cb36e4073a2c5c15e241595c616d313639 isClient = true]
+[LogWriter.java:92][SIPTransaction.java:575][SIPClientTransaction.java:1359][SIPClientTransaction.java:466][SIPClientTransaction.java:1023][MainBase.java:267][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.enableTimeoutTimer(SIPTransaction.java:644) [enableTimeoutTimer gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219 tickCount 64 currentTickCount = -1]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099182362"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+inviteTid = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099182864"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099183865"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099185866"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099189870"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099197879"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.170/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.170:5060" 
+time="1603099213894"
+isSender="true" 
+transactionId="z9hg4bk5615cb36e4073a2c5c15e241595c616d313639" 
+callId="03ad558269d7ee10cff9e7965905a14c@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.170:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.170:5060 SIP/2.0
+Call-ID: 03ad558269d7ee10cff9e7965905a14c@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.170:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bK5615cb36e4073a2c5c15e241595c616d313639
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.SIPClientTransaction.fireTimeoutTimer(SIPClientTransaction.java:1106) [fireTimeoutTimer gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219]
+gov.nist.javax.sip.stack.SIPClientTransaction.getDialog(SIPClientTransaction.java:1550) [ sipDialogs =  [] default dialog gov.nist.javax.sip.stack.SIPDialog@5127708e retval gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPDialog.setState(SIPDialog.java:1391) [Setting dialog state for gov.nist.javax.sip.stack.SIPDialog@5127708enewState = 3]
+[LogWriter.java:92][SIPDialog.java:1393][SIPDialog.java:2052][SIPClientTransaction.java:1121][SIPTransaction.java:669][SIPClientTransaction.java:262][DefaultSipTimer.java:61][Timer.java:555][Timer.java:505]
+gov.nist.javax.sip.stack.SIPDialog.setState(SIPDialog.java:1396) [gov.nist.javax.sip.stack.SIPDialog@5127708e  old dialog state is null]
+gov.nist.javax.sip.stack.SIPDialog.setState(SIPDialog.java:1398) [gov.nist.javax.sip.stack.SIPDialog@5127708e  New dialog state is Terminated Dialog]
+gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:171) [handleEvent javax.sip.TimeoutEvent[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]currentTransaction = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219this.sipListener = net.inmobiles.MainBase@12ddcc12sipEvent.source = gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+[LogWriter.java:92][SipProviderImpl.java:183][SipProviderImpl.java:950][SIPTransaction.java:911][SIPClientTransaction.java:1134][SIPTransaction.java:669][SIPClientTransaction.java:262][DefaultSipTimer.java:61][Timer.java:555][Timer.java:505]
+gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:85) [addEvent gov.nist.javax.sip.EventWrapper@19f93ed8]
+gov.nist.javax.sip.stack.SIPTransaction.setState(SIPTransaction.java:572) [Transaction:setState 5 gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219 branchID = z9hG4bK5615cb36e4073a2c5c15e241595c616d313639 isClient = true]
+gov.nist.javax.sip.EventScanner.run(EventScanner.java:512) [Processing gov.nist.javax.sip.EventWrapper@19f93ed8nevents 1]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:133) [sipEvent = javax.sip.TimeoutEvent[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]source = gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+[LogWriter.java:92][SIPTransaction.java:575][SIPClientTransaction.java:1359][SIPTransaction.java:921][SIPClientTransaction.java:1134][SIPTransaction.java:669][SIPClientTransaction.java:262][DefaultSipTimer.java:61][Timer.java:555][Timer.java:505]
+ ### processTimeout occured: javax.sip.TimeoutEvent[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+gov.nist.javax.sip.stack.SIPClientTransaction.cleanUpOnTerminated(SIPClientTransaction.java:1741) [removing  = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219 isReliable false]
+gov.nist.javax.sip.stack.SIPTransactionStack.removeTransaction(SIPTransactionStack.java:1657) [Removing Transaction = z9hg4bk5615cb36e4073a2c5c15e241595c616d313639 transaction = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219]
+gov.nist.javax.sip.stack.SIPTransactionStack.removeTransaction(SIPTransactionStack.java:1692) [REMOVED client tx gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219 KEY = z9hg4bk5615cb36e4073a2c5c15e241595c616d313639]
+gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:171) [handleEvent javax.sip.TransactionTerminatedEvent[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]currentTransaction = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219this.sipListener = net.inmobiles.MainBase@12ddcc12sipEvent.source = gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+[LogWriter.java:92][SipProviderImpl.java:183][SIPTransactionStack.java:1714][SIPClientTransaction.java:1757][SIPClientTransaction.java:256][DefaultSipTimer.java:61][Timer.java:555][Timer.java:505]
+gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:85) [addEvent gov.nist.javax.sip.EventWrapper@47cd820d]
+gov.nist.javax.sip.EventScanner.run(EventScanner.java:512) [Processing gov.nist.javax.sip.EventWrapper@47cd820dnevents 1]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:133) [sipEvent = javax.sip.TransactionTerminatedEvent[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]source = gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:411) [About to deliver transactionTerminatedEvent]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:413) [tx = gov.nist.javax.sip.stack.SIPClientTransaction@a6a8e219]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:417) [tx = null]
+BUILD TIMESTAMP = null
+Config Propeties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
+{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
+ logDescription="MainBaseStack"
+ name="null" />
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
+using default tls security policy
+gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}]
+the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1243) [createListeningPoint : address = 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:119) [Max Message size is 65536]
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1279) [Created Message Processor: 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:200) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@8db513b listeningPoint = gov.nist.javax.sip.ListeningPointImpl@7a2985b4]
+listeningPoint = gov.nist.javax.sip.ListeningPointImpl@7a2985b4
+gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1311) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@7a2985b4]
+SipProvider = gov.nist.javax.sip.SipProviderImpl@7316228a
+gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:234) [add SipListener net.inmobiles.MainBase@5beeed5a]
+gov.nist.javax.sip.SipProviderImpl.getNewClientTransaction(SipProviderImpl.java:338) [could not find existing transaction for INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+ creating a new one ]
+gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:239) [Used request-URI for nextHop = 192.168.153.168:5060/udp]
+gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:873) [getDialog(24b8a9373e0b549014ebafefbbb2b731@10.153.103.106:12345) : returning null]
+gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:254) [Creating message channel 192.168.153.168/5060]
+gov.nist.javax.sip.stack.SIPClientTransaction.<init>(SIPClientTransaction.java:311) [Creating clientTransaction gov.nist.javax.sip.stack.SIPClientTransaction@ffffffff]
+[LogWriter.java:92][SIPClientTransaction.java:312][SIPTransactionStack.java:1583][SIPTransactionStack.java:1561][SipProviderImpl.java:398][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434]
+gov.nist.javax.sip.stack.SIPTransactionStack.addTransactionHash(SIPTransactionStack.java:1770) [ putTransactionHash :  key = z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1744) [SipDialog.addTransaction() gov.nist.javax.sip.stack.SIPDialog@52df3139 transaction = gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33]
+gov.nist.javax.sip.stack.SIPDialog.setRemoteParty(SIPDialog.java:845) [settingRemoteParty "9922777" <sip:9922777@192.168.153.168:5060>]
+gov.nist.javax.sip.stack.SIPDialog.setLocalSequenceNumber(SIPDialog.java:1923) [setLocalSequenceNumber: original  0 new  = 1]
+gov.nist.javax.sip.stack.SIPDialog.setLocalTag(SIPDialog.java:2035) [set Local tag 12345 dialog = gov.nist.javax.sip.stack.SIPDialog@52df3139]
+[LogWriter.java:92][SIPDialog.java:2037][SIPDialog.java:1778][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1821) [isBackToBackUserAgent = false]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1829) [Transaction Added gov.nist.javax.sip.stack.SIPDialog@52df313912345/null]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1831) [TID = z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434/false]
+[LogWriter.java:92][SIPDialog.java:1834][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:698) [Creating a dialog : gov.nist.javax.sip.stack.SIPDialog@52df3139]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:699) [provider port = 5060]
+[LogWriter.java:92][SIPDialog.java:702][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@52df3139]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendRequest(SIPClientTransaction.java:937) [sendRequest() INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendMessage(SIPClientTransaction.java:426) [Sending Message INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendMessage(SIPClientTransaction.java:427) [TransactionState null]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434]
+gov.nist.javax.sip.stack.SIPTransaction.setState(SIPTransaction.java:572) [Transaction:setState 0 gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33 branchID = z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434 isClient = true]
+[LogWriter.java:92][SIPTransaction.java:575][SIPClientTransaction.java:1359][SIPClientTransaction.java:466][SIPClientTransaction.java:1023][MainBase.java:267][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.enableTimeoutTimer(SIPTransaction.java:644) [enableTimeoutTimer gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33 tickCount 64 currentTickCount = -1]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.168/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.168:5060" 
+time="1603109186551"
+isSender="true" 
+transactionId="z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434" 
+callId="24b8a9373e0b549014ebafefbbb2b731@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.168:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+inviteTid = gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33
+gov.nist.javax.sip.stack.UDPMessageChannel.processIncomingDataPacket(UDPMessageChannel.java:325) [UDPMessageChannel: processIncomingDataPacket : peerAddress = 192.168.153.168/5060 Length = 312]
+gov.nist.javax.sip.stack.SIPTransaction.acquireSem(SIPTransaction.java:1232) [acquireSem [[[[gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33]
+[LogWriter.java:92][SIPTransaction.java:1233][SIPTransactionStack.java:1500][UDPMessageChannel.java:559][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.acquireSem(SIPTransaction.java:1241) [acquireSem() returning : true]
+<message
+from="192.168.153.168:5060" 
+to="10.153.103.106:5060" 
+time="1603109186912"
+isSender="false" 
+transactionId="z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434" 
+callId="24b8a9373e0b549014ebafefbbb2b731@10.153.103.106" 
+firstLine="SIP/2.0 100 Trying" 
+>
+<![CDATA[SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Content-Length: 0
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1085) [clientTx: looking for key z9hg4bkb745d965e0505c8f4dbfb6b4a53a71c1353434]
+gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1112) [findTransaction: returning  : gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33]
+gov.nist.javax.sip.NistSipMessageFactoryImpl.newSIPServerResponse(NistSipMessageFactoryImpl.java:109) [Found Transaction gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33 for SIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Content-Length: 0
+
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.setResponseInterface(SIPClientTransaction.java:325) [Setting response interface for gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33 to gov.nist.javax.sip.DialogFilter@39319c8f]
+gov.nist.javax.sip.stack.SIPClientTransaction.processResponse(SIPClientTransaction.java:526) [processing SIP/2.0 100 Trying
+current state = Calling Transaction]
+gov.nist.javax.sip.stack.SIPClientTransaction.processResponse(SIPClientTransaction.java:529) [dialog = gov.nist.javax.sip.stack.SIPDialog@52df3139]
+gov.nist.javax.sip.stack.SIPTransaction.setState(SIPTransaction.java:572) [Transaction:setState 2 gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33 branchID = z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434 isClient = true]
+[LogWriter.java:92][SIPTransaction.java:575][SIPClientTransaction.java:1359][SIPClientTransaction.java:816][SIPClientTransaction.java:545][SIPClientTransaction.java:1524][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1312) [PROCESSING INCOMING RESPONSESIP/2.0 100 Trying
+CSeq: 1 INVITE
+Call-ID: 24b8a9373e0b549014ebafefbbb2b731@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKb745d965e0505c8f4dbfb6b4a53a71c1353434
+Content-Length: 0
+
+]
+gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1356) [Transaction = gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33]
+gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:171) [handleEvent gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@7316228a]currentTransaction = gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33this.sipListener = net.inmobiles.MainBase@5beeed5asipEvent.source = gov.nist.javax.sip.SipProviderImpl@7316228a]
+gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:181) [Dialog = gov.nist.javax.sip.stack.SIPDialog@52df3139]
+[LogWriter.java:92][SipProviderImpl.java:183][DialogFilter.java:1455][SIPClientTransaction.java:819][SIPClientTransaction.java:545][SIPClientTransaction.java:1524][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:85) [addEvent gov.nist.javax.sip.EventWrapper@240dd905]
+gov.nist.javax.sip.stack.SIPTransaction.semRelease(SIPTransaction.java:1267) [semRelease ]]]]gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33]
+gov.nist.javax.sip.EventScanner.run(EventScanner.java:512) [Processing gov.nist.javax.sip.EventWrapper@240dd905nevents 1]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:133) [sipEvent = gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@7316228a]source = gov.nist.javax.sip.SipProviderImpl@7316228a]
+[LogWriter.java:92][SIPTransaction.java:1268][SIPTransaction.java:1255][UDPMessageChannel.java:578][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:284) [Calling listener for SIP/2.0 100 Trying
+]
+gov.nist.javax.sip.stack.SIPTransaction.setPassToListener(SIPTransaction.java:1287) [setPassToListener()]
+gov.nist.javax.sip.stack.SIPTransaction.semRelease(SIPTransaction.java:1267) [semRelease ]]]]gov.nist.javax.sip.stack.SIPClientTransaction@6ca0aa33]
+[LogWriter.java:92][SIPTransaction.java:1268][SIPTransaction.java:1255][EventScanner.java:367][EventScanner.java:517][Thread.java:748]
+BUILD TIMESTAMP = null
+Config Propeties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:257) [Here are the stack configuration properties 
+{gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:259) [ ]]>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:260) [</debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:261) [<description
+ logDescription="MainBaseStack"
+ name="null" />
+]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:263) [<debug>]
+gov.nist.javax.sip.stack.ServerLog.checkLogFile(ServerLog.java:264) [<![CDATA[ ]
+using default tls security policy
+gov.nist.javax.sip.SipStackImpl.<init>(SipStackImpl.java:1135) [created Sip stack. Properties = {gov.nist.javax.sip.CACHE_CLIENT_CONNECTIONS=false, gov.nist.javax.sip.TRACE_LEVEL=DEBUG, javax.sip.STACK_NAME=MainBaseStack, gov.nist.javax.sip.SERVER_LOG=./output/networklog.txt, gov.nist.javax.sip.DEBUG_LOG=./output/networkdebug.txt}]
+the sip stack timer gov.nist.javax.sip.stack.timers.DefaultSipTimer has been started
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1243) [createListeningPoint : address = 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.UDPMessageProcessor.<init>(UDPMessageProcessor.java:119) [Max Message size is 65536]
+gov.nist.javax.sip.SipStackImpl.createListeningPoint(SipStackImpl.java:1279) [Created Message Processor: 10.153.103.106 port = 5060 transport = udp]
+gov.nist.javax.sip.stack.MessageProcessor.setListeningPoint(MessageProcessor.java:200) [setListeningPointgov.nist.javax.sip.stack.UDPMessageProcessor@63121c6c listeningPoint = gov.nist.javax.sip.ListeningPointImpl@4631da71]
+listeningPoint = gov.nist.javax.sip.ListeningPointImpl@4631da71
+gov.nist.javax.sip.SipStackImpl.createSipProvider(SipStackImpl.java:1311) [createSipProvider: gov.nist.javax.sip.ListeningPointImpl@4631da71]
+SipProvider = gov.nist.javax.sip.SipProviderImpl@5fd13cac
+gov.nist.javax.sip.SipProviderImpl.addSipListener(SipProviderImpl.java:234) [add SipListener net.inmobiles.MainBase@12ddcc12]
+gov.nist.javax.sip.SipProviderImpl.getNewClientTransaction(SipProviderImpl.java:338) [could not find existing transaction for INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+ creating a new one ]
+gov.nist.javax.sip.stack.DefaultRouter.getNextHop(DefaultRouter.java:239) [Used request-URI for nextHop = 192.168.153.168:5060/udp]
+gov.nist.javax.sip.stack.SIPTransactionStack.getDialog(SIPTransactionStack.java:873) [getDialog(3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345) : returning null]
+gov.nist.javax.sip.stack.UDPMessageChannel.<init>(UDPMessageChannel.java:254) [Creating message channel 192.168.153.168/5060]
+gov.nist.javax.sip.stack.SIPClientTransaction.<init>(SIPClientTransaction.java:311) [Creating clientTransaction gov.nist.javax.sip.stack.SIPClientTransaction@ffffffff]
+[LogWriter.java:92][SIPClientTransaction.java:312][SIPTransactionStack.java:1583][SIPTransactionStack.java:1561][SipProviderImpl.java:398][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233]
+gov.nist.javax.sip.stack.SIPTransactionStack.addTransactionHash(SIPTransactionStack.java:1770) [ putTransactionHash :  key = z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1744) [SipDialog.addTransaction() gov.nist.javax.sip.stack.SIPDialog@5127708e transaction = gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+gov.nist.javax.sip.stack.SIPDialog.setRemoteParty(SIPDialog.java:845) [settingRemoteParty "9922777" <sip:9922777@192.168.153.168:5060>]
+gov.nist.javax.sip.stack.SIPDialog.setLocalSequenceNumber(SIPDialog.java:1923) [setLocalSequenceNumber: original  0 new  = 1]
+gov.nist.javax.sip.stack.SIPDialog.setLocalTag(SIPDialog.java:2035) [set Local tag 12345 dialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+[LogWriter.java:92][SIPDialog.java:2037][SIPDialog.java:1778][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1821) [isBackToBackUserAgent = false]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1829) [Transaction Added gov.nist.javax.sip.stack.SIPDialog@5127708e12345/null]
+gov.nist.javax.sip.stack.SIPDialog.addTransaction(SIPDialog.java:1831) [TID = z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233/false]
+[LogWriter.java:92][SIPDialog.java:1834][SIPDialog.java:696][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:698) [Creating a dialog : gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPDialog.<init>(SIPDialog.java:699) [provider port = 5060]
+[LogWriter.java:92][SIPDialog.java:702][SIPTransactionStack.java:738][SipProviderImpl.java:416][MainBase.java:263][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendRequest(SIPClientTransaction.java:937) [sendRequest() INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendMessage(SIPClientTransaction.java:426) [Sending Message INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.sendMessage(SIPClientTransaction.java:427) [TransactionState null]
+gov.nist.javax.sip.stack.SIPTransaction.setOriginalRequest(SIPTransaction.java:427) [Setting Branch id : z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233]
+gov.nist.javax.sip.stack.SIPTransaction.setState(SIPTransaction.java:572) [Transaction:setState 0 gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3 branchID = z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233 isClient = true]
+[LogWriter.java:92][SIPTransaction.java:575][SIPClientTransaction.java:1359][SIPClientTransaction.java:466][SIPClientTransaction.java:1023][MainBase.java:267][MainBase.java:85][Filter.java:79][AuthFilter.java:83][Filter.java:82][ServerImpl.java:675][Filter.java:79][ServerImpl.java:647][ServerImpl.java:158][ServerImpl.java:431][ServerImpl.java:396][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.enableTimeoutTimer(SIPTransaction.java:644) [enableTimeoutTimer gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3 tickCount 64 currentTickCount = -1]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:760) [sendMessage 192.168.153.168/5060
+messageSize =  1185 message = INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+v=0
+o=4855 13760799956958020 13760799956958020 IN IP4 10.153.103.106
+s=mysession session
+c=IN IP4 10.153.103.106
+t=0 0
+m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116
+a=rtpmap:8 PCMA/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:3 GSM/8000
+a=rtpmap:112 AAL2-G726-32/8000
+a=rtpmap:5 DVI4/8000
+a=rtpmap:10 L16/8000
+a=rtpmap:7 LPC/8000
+a=rtpmap:97 iLBC/8000
+a=ftmp:0 mpde=30
+a=rtpmap:111 G726-32/8000
+a=rtpmap:9 G722/8000
+a=rtpmap:118 L16/16000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:116 telephone-event/8000
+a=fmtp:116 0-16,32,36
+a=ptime:20
+a=sendrecv
+]
+gov.nist.javax.sip.stack.UDPMessageChannel.sendMessage(UDPMessageChannel.java:764) [*******************
+]
+<message
+from="10.153.103.106:5060" 
+to="192.168.153.168:5060" 
+time="1603111287105"
+isSender="true" 
+transactionId="z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233" 
+callId="3d036c2c694c4e4666902f5df33d3690@10.153.103.106" 
+firstLine="INVITE sip:9922777@192.168.153.168:5060 SIP/2.0" 
+>
+<![CDATA[INVITE sip:9922777@192.168.153.168:5060 SIP/2.0
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+CSeq: 1 INVITE
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Max-Forwards: 70
+Contact: "9958033" <sip:9958033@10.153.103.106:5060>
+User-Agent: Apollo
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY, INFO, PUBLISH, MESSAGE
+Supported: replaces,timer
+Content-Type: application/sdp
+Call-Info: <http://www.antd.nist.gov>
+Content-Length: 561
+
+]]>
+</message>
+
+inviteTid = gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3
+gov.nist.javax.sip.stack.UDPMessageChannel.processIncomingDataPacket(UDPMessageChannel.java:325) [UDPMessageChannel: processIncomingDataPacket : peerAddress = 192.168.153.168/5060 Length = 313]
+gov.nist.javax.sip.stack.SIPTransaction.acquireSem(SIPTransaction.java:1232) [acquireSem [[[[gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+[LogWriter.java:92][SIPTransaction.java:1233][SIPTransactionStack.java:1500][UDPMessageChannel.java:559][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPTransaction.acquireSem(SIPTransaction.java:1241) [acquireSem() returning : true]
+<message
+from="192.168.153.168:5060" 
+to="10.153.103.106:5060" 
+time="1603111287287"
+isSender="false" 
+transactionId="z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233" 
+callId="3d036c2c694c4e4666902f5df33d3690@10.153.103.106" 
+firstLine="SIP/2.0 180 Ringing" 
+>
+<![CDATA[SIP/2.0 180 Ringing
+CSeq: 1 INVITE
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Content-Length: 0
+
+]]>
+</message>
+
+gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1085) [clientTx: looking for key z9hg4bke9fe95c75e926ead9d1a3257e7fd94ef323233]
+gov.nist.javax.sip.stack.SIPTransactionStack.findTransaction(SIPTransactionStack.java:1112) [findTransaction: returning  : gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+gov.nist.javax.sip.NistSipMessageFactoryImpl.newSIPServerResponse(NistSipMessageFactoryImpl.java:109) [Found Transaction gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3 for SIP/2.0 180 Ringing
+CSeq: 1 INVITE
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Content-Length: 0
+
+]
+gov.nist.javax.sip.stack.SIPClientTransaction.setResponseInterface(SIPClientTransaction.java:325) [Setting response interface for gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3 to gov.nist.javax.sip.DialogFilter@1a2d25d]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3102) [sipDialog: setLastResponse:gov.nist.javax.sip.stack.SIPDialog@5127708e lastResponse = 180]
+[LogWriter.java:92][SIPDialog.java:3125][SIPClientTransaction.java:1479][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3126) [cseqMethod = INVITE]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3128) [dialogState = null]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3130) [method = INVITE]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3132) [statusCode = 180]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3134) [transaction = gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+gov.nist.javax.sip.stack.SIPDialog.setState(SIPDialog.java:1391) [Setting dialog state for gov.nist.javax.sip.stack.SIPDialog@5127708enewState = 0]
+[LogWriter.java:92][SIPDialog.java:1393][SIPDialog.java:3151][SIPClientTransaction.java:1479][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.setState(SIPDialog.java:1396) [gov.nist.javax.sip.stack.SIPDialog@5127708e  old dialog state is null]
+gov.nist.javax.sip.stack.SIPDialog.setState(SIPDialog.java:1398) [gov.nist.javax.sip.stack.SIPDialog@5127708e  New dialog state is Early Dialog]
+gov.nist.javax.sip.stack.SIPDialog.setRemoteTag(SIPDialog.java:1847) [setRemoteTag(): gov.nist.javax.sip.stack.SIPDialog@5127708e remoteTag = null new tag = null]
+setRemoteTag : called with null argument 
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPTransactionStack.putDialog(SIPTransactionStack.java:700) [putDialog dialogId=3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 dialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+[LogWriter.java:92][SIPTransactionStack.java:705][SIPDialog.java:3156][SIPClientTransaction.java:1479][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.addRoute(SIPDialog.java:963) [setContact: dialogState: gov.nist.javax.sip.stack.SIPDialog@5127708estate = Early Dialog]
+[LogWriter.java:92][SIPDialog.java:1020][SIPDialog.java:3157][SIPClientTransaction.java:1479][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3433) [EarlyStateTimerTask craeted 180000]
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPClientTransaction.processResponse(SIPClientTransaction.java:526) [processing SIP/2.0 180 Ringing
+current state = Calling Transaction]
+gov.nist.javax.sip.stack.SIPClientTransaction.processResponse(SIPClientTransaction.java:529) [dialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPTransaction.setState(SIPTransaction.java:572) [Transaction:setState 2 gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3 branchID = z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233 isClient = true]
+[LogWriter.java:92][SIPTransaction.java:575][SIPClientTransaction.java:1359][SIPClientTransaction.java:816][SIPClientTransaction.java:545][SIPClientTransaction.java:1524][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1312) [PROCESSING INCOMING RESPONSESIP/2.0 180 Ringing
+CSeq: 1 INVITE
+Call-ID: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106
+From: "9958033" <sip:9958033@10.153.103.106>;tag=12345
+To: "9922777" <sip:9922777@192.168.153.168:5060>
+Via: SIP/2.0/UDP 10.153.103.106:5060;branch=z9hG4bKe9fe95c75e926ead9d1a3257e7fd94ef323233
+Content-Length: 0
+
+]
+gov.nist.javax.sip.DialogFilter.processResponse(DialogFilter.java:1356) [Transaction = gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3102) [sipDialog: setLastResponse:gov.nist.javax.sip.stack.SIPDialog@5127708e lastResponse = 180]
+[LogWriter.java:92][SIPDialog.java:3125][DialogFilter.java:1451][SIPClientTransaction.java:819][SIPClientTransaction.java:545][SIPClientTransaction.java:1524][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3126) [cseqMethod = INVITE]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3128) [dialogState = Early Dialog]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3130) [method = INVITE]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3132) [statusCode = 180]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3134) [transaction = gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+gov.nist.javax.sip.stack.SIPDialog.setRemoteTag(SIPDialog.java:1847) [setRemoteTag(): gov.nist.javax.sip.stack.SIPDialog@5127708e remoteTag = null new tag = null]
+setRemoteTag : called with null argument 
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPTransactionStack.putDialog(SIPTransactionStack.java:693) [putDialog: dialog already exists3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 in table = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.stack.SIPDialog.addRoute(SIPDialog.java:963) [setContact: dialogState: gov.nist.javax.sip.stack.SIPDialog@5127708estate = Early Dialog]
+[LogWriter.java:92][SIPDialog.java:1020][SIPDialog.java:3173][DialogFilter.java:1451][SIPClientTransaction.java:819][SIPClientTransaction.java:545][SIPClientTransaction.java:1524][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.stack.SIPDialog.setLastResponse(SIPDialog.java:3433) [EarlyStateTimerTask craeted 180000]
+gov.nist.javax.sip.stack.SIPClientTransaction.setDialog(SIPClientTransaction.java:1584) [setDialog: 3d036c2c694c4e4666902f5df33d3690@10.153.103.106:12345 sipDialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:171) [handleEvent gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]currentTransaction = gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3this.sipListener = net.inmobiles.MainBase@12ddcc12sipEvent.source = gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+gov.nist.javax.sip.SipProviderImpl.handleEvent(SipProviderImpl.java:181) [Dialog = gov.nist.javax.sip.stack.SIPDialog@5127708e]
+[LogWriter.java:92][SipProviderImpl.java:183][DialogFilter.java:1455][SIPClientTransaction.java:819][SIPClientTransaction.java:545][SIPClientTransaction.java:1524][UDPMessageChannel.java:573][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.EventScanner.addEvent(EventScanner.java:85) [addEvent gov.nist.javax.sip.EventWrapper@7d18638c]
+gov.nist.javax.sip.stack.SIPTransaction.semRelease(SIPTransaction.java:1267) [semRelease ]]]]gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+[LogWriter.java:92][SIPTransaction.java:1268][SIPTransaction.java:1255][UDPMessageChannel.java:578][UDPMessageChannel.java:487][UDPMessageChannel.java:295][Thread.java:748]
+gov.nist.javax.sip.EventScanner.run(EventScanner.java:512) [Processing gov.nist.javax.sip.EventWrapper@7d18638cnevents 1]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:133) [sipEvent = gov.nist.javax.sip.ResponseEventExt[source=gov.nist.javax.sip.SipProviderImpl@5fd13cac]source = gov.nist.javax.sip.SipProviderImpl@5fd13cac]
+gov.nist.javax.sip.EventScanner.deliverEvent(EventScanner.java:284) [Calling listener for SIP/2.0 180 Ringing
+]
+gov.nist.javax.sip.stack.SIPTransaction.setPassToListener(SIPTransaction.java:1287) [setPassToListener()]
+gov.nist.javax.sip.stack.SIPTransaction.semRelease(SIPTransaction.java:1267) [semRelease ]]]]gov.nist.javax.sip.stack.SIPClientTransaction@70a2b7a3]
+[LogWriter.java:92][SIPTransaction.java:1268][SIPTransaction.java:1255][EventScanner.java:367][EventScanner.java:517][Thread.java:748]
