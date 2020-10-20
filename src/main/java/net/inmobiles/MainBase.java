@@ -146,7 +146,7 @@ public class MainBase implements SipListener {
 			messageFactory = sipFactory.createMessageFactory();
 			headerFactory = sipFactory.createHeaderFactory();
 
-			udpListeningPoint = sipStack.createListeningPoint("10.153.103.106", 5060, transport);
+			udpListeningPoint = sipStack.createListeningPoint("10.153.103.186", 5060, transport);
 			MainBase.logger.info("listeningPoint = " + udpListeningPoint);
 
 			sipProvider = sipStack.createSipProvider(udpListeningPoint);
@@ -157,7 +157,7 @@ public class MainBase implements SipListener {
 
 			// create >From Header
 			String fromName = "9958033";
-			String fromSipAddress = "10.153.103.106";
+			String fromSipAddress = "10.153.103.186";
 			String fromDisplayName = "9958033";
 			SipURI fromAddress = addressFactory.createSipURI(fromName, fromSipAddress);
 			Address fromNameAddress = addressFactory.createAddress(fromAddress);
@@ -202,7 +202,7 @@ public class MainBase implements SipListener {
 					fromHeader, toHeader, viaHeaders, maxForwards);
 
 			// Create contact headers
-			String host = "10.153.103.106";
+			String host = "10.153.103.186";
 			SipURI contactUrl = addressFactory.createSipURI(fromName, host);
 			contactUrl.setPort(udpListeningPoint.getPort());
 			contactUrl.setLrParam();
@@ -229,27 +229,19 @@ public class MainBase implements SipListener {
 			// Add the SDP data
 
 			String sdpData = "v=0\r\n" + //
-					"o=4855 13760799956958020 13760799956958020 IN IP4 " + fromSipAddress + "\r\n"
-					+ "s=mysession session\r\n" + //
-					"c=IN IP4 " + fromSipAddress + "\r\n" + //
+					"o=- 3812190738 3812190738 IN IP4 " + fromSipAddress + "\r\n"
+					+ "s=pjmedia\r\n" + //
+					"b=AS:84\r\n" + //
 					"t=0 0\r\n" + //
-					"m=audio 19676 RTP/AVP 8 0 3 112 5 10 7 97 111 9 118 116\r\n" + //
+					"m=audio 4000 RTP/AVP 8 0 101\r\n" + //
+					"c=IN IP4 " + fromSipAddress + "\r\n" + //
+					"b=TIAS:64000\r\n" + //
+					"a=rtcp:4001 IN IP4 " + fromSipAddress + "\r\n" + //
 					"a=rtpmap:8 PCMA/8000\r\n" + //
 					"a=rtpmap:0 PCMU/8000\r\n" + //
-					"a=rtpmap:3 GSM/8000\r\n" + //
-					"a=rtpmap:112 AAL2-G726-32/8000\r\n" + //
-					"a=rtpmap:5 DVI4/8000\r\n" + //
-					"a=rtpmap:10 L16/8000\r\n" + //
-					"a=rtpmap:7 LPC/8000\r\n" + //
-					"a=rtpmap:97 iLBC/8000\r\n" + //
-					"a=ftmp:0 mpde=30\r\n" + //
-					"a=rtpmap:111 G726-32/8000\r\n" + //
-					"a=rtpmap:9 G722/8000\r\n" + //
-					"a=rtpmap:118 L16/16000\r\n" + //
-					"a=rtpmap:0 PCMU/8000\r\n" + //
-					"a=rtpmap:116 telephone-event/8000\r\n" + //
-					"a=fmtp:116 0-16,32,36\r\n" + //
-					"a=ptime:20\r\n" + //
+					"a=rtpmap:101 telephone-event/8000\r\n" + //
+					"a=fmtp:101 0-16\r\n" + //
+					"a=ssrc:1300569442 cname:424243e067b91b41\r\n" + //
 					"a=sendrecv\r\n";
 
 			byte[] contents = sdpData.getBytes();
